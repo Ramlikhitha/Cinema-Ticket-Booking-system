@@ -16,7 +16,7 @@ public class Main {
             System.out.println("\n==== CINEMA TICKET BOOKING ====");
             System.out.println("Select User Type");
             System.out.println("1️⃣ Admin");
-//            System.out.println("2️⃣ Customer");
+            System.out.println("2️⃣ Customer");
             System.out.println("3️⃣ Exit");
             System.out.print("Choose User Type: ");
             int userType = sc.nextInt();
@@ -28,7 +28,7 @@ public class Main {
                         System.out.println("\n==== ADMIN MENU ====");
                         System.out.println("1️⃣ Add Movie");
                         System.out.println("2️⃣ Create Show");
-//                        System.out.println("3️⃣ Exit");
+                        System.out.println("3️⃣ Exit");
                         System.out.print("Choose Option: ");
                         int adminChoice = sc.nextInt();
                         sc.nextLine();
