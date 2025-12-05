@@ -80,7 +80,7 @@ public class Main {
                         }
 
                         if (adminChoice == 3) {
-                            System.out.println("Exiting ADMIN Inner Loop");
+                            System.out.println("Exiting ADMIN Inner Looping");
                             break; // exit inner admin loop
                         }
                     }
