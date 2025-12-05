@@ -76,6 +76,7 @@ public class Main {
 
                             default:
                                 System.out.println("Invalid option! Try again.");
+                                System.err.println("Error while choosing option");
                         }
 
                         if (adminChoice == 3) break; // exit inner admin loop
