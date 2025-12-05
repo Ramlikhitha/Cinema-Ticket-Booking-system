@@ -79,7 +79,10 @@ public class Main {
                                 System.err.println("Error while choosing option");
                         }
 
-                        if (adminChoice == 3) break; // exit inner admin loop
+                        if (adminChoice == 3) {
+                            System.out.println("Exiting ADMIN Inner Loop");
+                            break; // exit inner admin loop
+                        }
                     }
                     break;
 
