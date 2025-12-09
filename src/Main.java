@@ -92,11 +92,13 @@ public class Main {
 
                 case 3: // Exit Program
                     System.out.println("Exiting system...");
+
                     sc.close();
                     System.exit(0);
 
                 default:
                     System.out.println("Invalid choice! Try again.");
+                    System.out.println("CTBS_Branch code..");
             }
         }
     }
